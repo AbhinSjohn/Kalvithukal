@@ -1,11 +1,11 @@
 .footer{
     color: aliceblue;
-    
+    background-color: black;
 }
 .footer__logo{
     width: 10%;
     object-fit: contain;
-    
+    margin-top: 100px;
      margin-left: 150px;
 }
 .footer_contents{
