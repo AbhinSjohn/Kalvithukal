@@ -7,7 +7,9 @@ import SearchIcon from "@material-ui/icons/Search";
 function Header() {
   return (
     <div className="header">
-      <img className="header__logo" src="/media/logo1.jpeg" />
+      <div className="header__logoContainer">
+        <img className="header__logo" src="/media/logo.jpg" />
+      </div>
       <div className="header__nav">
         <div className="header__navItem">Home</div>
         <div className="header__navItem">Study Material</div>
