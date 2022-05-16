@@ -1,6 +1,7 @@
 import "./App.css";
 import Footer from "./Footer";
 import Header from "./Header";
+import NewsLetter from "./NewsLetter";
 function App() {
   return (
     <div className="App">
@@ -8,6 +9,7 @@ function App() {
       <Header/>
       {/* Body */}
       {/* Footer */}
+      <NewsLetter />
       <Footer/>
     </div>
   );
