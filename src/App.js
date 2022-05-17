@@ -1,6 +1,7 @@
 import "./App.css";
 import Footer from "./Footer";
 import Header from "./Header";
+import NewsLetter from "./NewsLetter";
 import Body from "./Body";
 function App() {
   return (
@@ -10,8 +11,11 @@ function App() {
       {/* Body */}
       <Body/>
       {/* Footer */}
+      <NewsLetter />
       <Footer/>
-      </div>
-);
+      {/* <Footer/> */}
+    </div>
+  );
 }
+
 export default App;

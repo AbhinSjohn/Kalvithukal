@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-body{
-    background-color: rgb(0, 0, 0);
-}
-=======
-
->>>>>>> d1d9da8ff554af77826ea27a3964ce40d939622a
 .header{
     display: flex;
     color: white;
@@ -13,13 +6,13 @@ body{
     background-color: black;
 }
 .header__logoContainer{
-    width: 25%;
+    width: 20%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 .header__logo{ 
-    width: 50%;
+    width: 40%;
     object-fit: contain;
     margin-left: 50px;
 }
@@ -27,14 +20,14 @@ body{
     
     display: flex;
     align-items: center;
-    width: 50%;
+    width: 55%;
     justify-content: center;
 }
 .header__navItem{
     margin: 10px 20px;
     cursor: pointer;
-    height: 30px;
-    font-size: 20px;
+    height: auto;
+    font-size: 15px;
     padding: 10px;
     
 }
@@ -53,16 +46,17 @@ body{
 }
 .header__user{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     width: 20%;
     
 }
 .header__userPhoto{
-    transform: scale(1.6);
+    transform: scale(1);
     color: #AF03E4;
 }
 .header__userName{
     font-weight: 700;
+    margin-left: 8px;
     /* margin-top: 5px; */
 }
 .header__userName:hover{
@@ -70,10 +64,48 @@ body{
     color: #2e688c;
 }
 .header__modeIcon{
-    transform: scale(1.5);
+    transform: scale(1);
     color: #AF03E4;
 }
 .header__searchIcon{
-    transform: scale(1.7);
+    transform: scale(1);
     color: #AF03E4;
 }
+
+/* @media screen and (max-width: 1480px){
+        .header__logo{ 
+            width: 60%;
+            margin-left: 100px;
+        }
+        .header__logoContainer{
+            width: 15%;
+        }
+        .header__nav{
+            width: 70%;
+        }
+        .header__navItem{
+            margin: 5px 10px;
+            font-size: 15px;
+            padding: 10px;
+            
+        }
+        .header__operation{ 
+            width: 15%;
+            font-size: 15px;
+        }
+        .header__user{
+            width: 10%;        
+        }
+        .header__userPhoto{
+            transform: scale(1);
+        }
+        .header__userName{
+            font-weight: 500;
+        }
+        .header__modeIcon{
+            transform: scale(1);
+        }
+        .header__searchIcon{
+            transform: scale(1);
+        }
+} */

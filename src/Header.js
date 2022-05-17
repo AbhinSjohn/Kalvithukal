@@ -20,7 +20,6 @@ function Header() {
       <div className="header__operation">
         <div className="header__operationItem header__user">
           <AccountCircleIcon className="header__userPhoto" />
-          &nbsp;&nbsp;&nbsp;
           <span className="header__userName">Dinkan</span>
         </div>
         <div className="header__modes header__operationItem">

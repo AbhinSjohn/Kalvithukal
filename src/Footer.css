@@ -1,36 +1,37 @@
 .footer{
-    color: aliceblue;
     background-color: black;
+    color: white;
+    height: 100%;
+    width: 100%;
+    
 }
-.footer__logo{
+ .footer__logo{ 
     width: 10%;
     object-fit: contain;
-    margin-top: 100px;
+    margin-top: 50px;
      margin-left: 150px;
 }
 .footer_contents{
     display: flex;
-    /* background-color: aqua; */
     justify-content: space-between;
     margin-top: 40px;
-    
+    text-align: left;
 }
 .footer__list{
     display: flex;
     justify-content: space-around;
-    background-color: black;
     width: 60%;
     
 }
 .footerListItemHead{
-    font-size: 23px;
+    margin-left: 10px;
+    font-size: 20px;
     font-weight: 400;
-    margin-left: 38px;
-    /* background-color: aliceblue; */
 }
 .footerUl{
+    margin-left: 10px;
     list-style: none;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 50px;
 }
 
@@ -43,23 +44,26 @@ width: 40%;
 }
 
 .footer__socialHead{
+    
     font-size: 23px;
     font-weight: 400;
     margin-top: -100px;
-    margin-bottom: 40px;
     
 }
 .footer__socialMedias{
     display: flex;
     justify-content: space-around;
     width: 50%;
+    margin-top: 50px;
 }
 
 .footer__socialMedia{
     transform: scale(2);
 }
 .footer__copyright{
-    margin-top: 40px;
-    margin-left: 140px;
-    margin-bottom: 50px;
-}
+    margin-top: 20px;
+    margin-left: 144px;
+    /* margin-bottom: 5px; */
+    font-size: 14px;
+    height: 30px;
+} 
