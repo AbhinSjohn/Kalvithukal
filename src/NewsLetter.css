@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,500;1,100&display=swap');
 
 .newsLetter{
-    height: 100vh;
+    height: 95vh;
     width: 100%;
     border: 70px solid #9799bc;
     font-family: 'Poppins', sans-serif;
