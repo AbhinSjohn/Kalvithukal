@@ -115,16 +115,21 @@
     color: #AF03E4;
 }
 
+
+
+
+
+
 /* media */
 
-/* @media screen and (max-width: 1480px){
-    .body__lapImage{
+@media screen and (max-width: 1200px){
+    /* .body__lapImage{
         width: 30%;
         object-fit: contain;
         box-shadow: 0px 0px 50px 5px grey;
         border-radius: 5%;
         
-    }
+    } */
     .body__footer{
         display: flex;
         align-items: center;
@@ -134,8 +139,9 @@
         width: 100%; 
     }
     .body__header{
-        font-size: 20px;
-        display: flex;
-        justify-content: space-around;
+        font-size: 25px;
     }
-} */
+    .body__description{
+        font-size: 15px;
+    }
+} 

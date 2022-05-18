@@ -1,0 +1,52 @@
+.donate{
+display: flex;
+background-color: #082032;
+flex-direction: column;
+height: 100vh;
+width: 100%;
+align-items: center;
+justify-content: space-around;
+color: white;
+}
+.header__image{
+    width: 30%;
+}
+
+.donate__section{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+.donate__header{
+    display: flex;
+    flex-direction: column;
+    /* background-color: antiquewhite; */
+    margin-left: 50px;
+    height: 250px;
+    justify-content: space-between;
+}
+.donate__headerColorChange{
+   color: #AF03E4;
+}
+.donate__header h3{
+    /* background-color: aqua; */
+    font-size: 30px;
+}
+.donate__button button{
+    width: 20%;
+    height: auto;
+    padding: 5px;
+    border: none;
+    background-color: #AF03E4;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    text-align: center;
+}
+.donate__header p{
+/* background-color: aqua; */
+width: 60%;
+}

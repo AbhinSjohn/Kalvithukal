@@ -1,0 +1,38 @@
+
+.downloads__container{
+    height: 100vh;
+    width: 100%;
+    background-color: #AF03E4;
+}
+.downloads{
+    height: 100vh;
+    width: 100%;
+    /* background-color: black; */
+    background-color: #082032;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius:55% 55% 0px 0px;
+    align-items: center;
+}
+.download__listItemImage{
+    width: 60%;
+}
+.download__head{
+    margin-top: 100px;
+    text-align: center;
+    /* background-color: #AF03E4; */
+    width: 100%;
+    height: 20vh;
+    font-size: 20px;
+    
+}
+.download__list{
+    margin-top: -50px;
+    display: grid;
+    width: 100%;
+    height: 80vh;
+    grid-template-columns: auto auto auto auto;
+    /* background-color: azure; */
+    text-align: center;
+}

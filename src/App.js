@@ -1,15 +1,9 @@
 import "./App.css";
-import Footer from "./Footer";
-import Header from "./Header";
-import NewsLetter from "./NewsLetter";
-import Body from "./Body";
+import Landing_page from "./Landing_page/Landing_page";
 function App() {
   return (
     <div className="App">
-      <Header/>
-      <Body/>
-      <NewsLetter />
-      <Footer/>
+      <Landing_page/>
     </div>
   );
 }
